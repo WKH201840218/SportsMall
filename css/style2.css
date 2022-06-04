@@ -102,7 +102,7 @@ body{
 	border: solid 1px var(--border-gray-color);
 }
 .main-container .main-wrap .logo-wrap{
-	padding-top:55px;
+	padding-top:40px;
 }
 .main-container .main-wrap .logo-wrap img
 {
@@ -157,7 +157,7 @@ body{
 }
 .login-stay-sign-in{
 	width: 540px;
-	height: 48px;
+	height: 90px;
 	
 	display: flex;
 	font-size: 15px;
@@ -227,9 +227,10 @@ body{
 .Easy-sgin-in-wrap .forget-msg{
 	color:var(--font-color);
 	font-size: 14px;
-	padding-top: 10px;
-
+	/* padding-top: 10px; */
+	margin-bottom: 50px;
 }
+
 footer{
    
 	padding-top: 95px;
@@ -238,7 +239,7 @@ footer{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
-	width:768px;
+	/* width:768px; */
 
 
 
