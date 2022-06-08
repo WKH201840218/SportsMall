@@ -412,7 +412,7 @@ fieldset {
   font-size: 100px;
 	/* padding: 5px 10px 10px 10px; */
 	text-align: center;
-	position: absolute;
+	/* position: absolute; */
 	top: 50%;
 	left: 10%;
   font-family: 'Anton', sans-serif;
@@ -426,7 +426,7 @@ fieldset {
   /* font-weight: bold; */
 	/* padding: 5px 10px 10px 10px; */
 	text-align: center;
-	position: absolute;
+	/* position: absolute; */
 	top: 10%;
 	left: 10%;
   font-family: 'Anton', sans-serif;
@@ -439,7 +439,7 @@ fieldset {
   font-weight: bold;
 	/* padding: 5px 10px 10px 10px; */
 	text-align: center;
-	position: absolute;
+	/* position: absolute; */
 	top: 40%;
 	left: 10%;
   font-family: 'Noto Sans KR', sans-serif;
@@ -470,6 +470,44 @@ legend {
 @media (min-width: 1200px) {
   legend {
     font-size: 1.5rem;
+  }
+  .nike {
+    text-shadow:1px 1px 1px #495057;
+    color: #000;
+    font-size: 100px;
+    /* padding: 5px 10px 10px 10px; */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .nike1 {
+    text-shadow:1px 1px 10px #06357a;
+    letter-spacing: 10px;
+    color: #fff;
+    font-size: 150px;
+    /* font-weight: bold; */
+    /* padding: 5px 10px 10px 10px; */
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .nike2 {
+    text-shadow:1px 1px 1px #565e64;
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+    /* padding: 5px 10px 10px 10px; */
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-family: 'Noto Sans KR', sans-serif;
   }
 }
 legend + * {
