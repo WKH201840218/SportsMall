@@ -758,7 +758,10 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1320px; 
+  }
+  .nike1  {
+      margin-bottom: 1000px;
   }
 }
 .row {
@@ -1490,7 +1493,15 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
+    margin-left: auto;
   }
+
+  .col-lg-60 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-left: auto;
+  }
+
 
   .col-lg-7 {
     flex: 0 0 auto;
@@ -7777,6 +7788,11 @@ textarea.form-control-lg {
   font-weight: bolder !important;
 }
 
+.fw-bolder1 {
+  font-weight: bolder !important;
+  text-align: right;
+}
+
 .lh-1 {
   line-height: 1 !important;
 }
@@ -7909,6 +7925,13 @@ textarea.form-control-lg {
 .text-muted1 {
   --bs-text-opacity: 1;
   color: #000 !important;
+}
+
+.text-muted2 {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+  line-height: 55px;
+  text-align: right;
 }
 
 .text-black-50 {
